@@ -1,13 +1,3 @@
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-<script src="https://code.highcharts.com/highcharts.js"></script>
-<script src="https://code.highcharts.com/modules/series-label.js"></script>
-<script src="https://code.highcharts.com/modules/exporting.js"></script>
-<script src="https://code.highcharts.com/modules/export-data.js"></script>
-<script src="https://code.highcharts.com/modules/data.js"></script>
-<script src="https://code.highcharts.com/modules/drilldown.js"></script>
-<script type="text/javascript" src="https://json-stat.org/lib/json-stat.js"></script>
-
 /* Adresse til json-stat datasettet */
 const url="https://data.ssb.no/api/v0/dataset/1066.json?lang=no";
 console.log("url er type: " + typeof url);
@@ -46,4 +36,3 @@ $.get(url, function main(obj){
     );  
 }
 )
-
