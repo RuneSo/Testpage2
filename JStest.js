@@ -1,5 +1,4 @@
-alert("Javascript i JStest.js kjører!")
-
+// alert("Javascript i JStest.js kjører!")
 
 $(function() {
     var myChart = Highcharts.chart('figur1', {
@@ -21,8 +20,8 @@ $(function() {
         },
         credits: {
             enabled: true,
-            text: 'KS/PAI',
-            href: 'http://www.ks.no/pai'
+            text: 'RuneSo',
+            href: 'https://github.com/RuneSo'
         },
         xAxis: {
             labels: {
