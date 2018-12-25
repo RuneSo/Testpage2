@@ -9,7 +9,7 @@
     });
 
 const xhr = new XMLHttpRequest();
-const url = 'https://fantasy.premierleague.com/drf/bootstrap-static';
+const url = 'https://cors-anywhere.herokuapp.com/https://fantasy.premierleague.com/drf/bootstrap-static';
 xhr.responseType = 'json';
 xhr.onreadystatechange = () => {
   if (xhr.readyState === XMLHttpRequest.DONE) {
