@@ -4,7 +4,7 @@ console.log("url er type: " + typeof url);
 /* Henter datasettet med jquery get */
 $.get(url, function main(obj){
     ds=JSONstat(obj).Dataset(0);
-    alert(ds.Dimension("Tid").id);
+    // alert(ds.Dimension("Tid").id);
         /*jQuery sjekk */
         $(document).ready(function() {
         /* Highcharts kode */ 
