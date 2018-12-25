@@ -14,10 +14,10 @@ xhr.responseType = 'json';
 xhr.onreadystatechange = () => {
   if (xhr.readyState === XMLHttpRequest.DONE) {
       const rawjson=xhr.response;
+      alert(rawjson); 
     return rawjson;
   }
 };
 
 xhr.open('GET', url);
 xhr.send();
-alert(rawjson);
