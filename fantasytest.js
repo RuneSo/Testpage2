@@ -3,7 +3,7 @@ const xhr = new XMLHttpRequest();
 //https://stackoverflow.com/questions/43871637/no-access-control-allow-origin-header-is-present-on-the-requested-resource-whe
 const proxy = 'https://cors-anywhere.herokuapp.com/'; 
 const url_0 = 'https://fantasy.premierleague.com/drf/bootstrap-static';
-const url = proxy+url_0;
+const fantasyurl = proxy+url_0;
 xhr.responseType = 'json';
 xhr.onreadystatechange = () => {
   if (xhr.readyState === XMLHttpRequest.DONE) {
@@ -12,7 +12,7 @@ xhr.onreadystatechange = () => {
 //    return rawjson;
   }
 };
-xhr.open('GET', url);
+xhr.open('GET', fantasyurl);
 xhr.send();
 //alert(typeof(xhr.responseText));
 //var nyjson = JSON.parse(xhr.responseText);
@@ -26,7 +26,7 @@ $(document).ready(function() {
 let  playerJson;
 // Utgave med jQuery. playerJson inneholder alle dataene. Kan brukes som man vil. vet ikke hvordan jeg elgger det til 
 // variabel utenfor.
-$.getJSON(url, function(json){
+$.getJSON(fantasyurl, function(json){
     playerJson = json;
 //    nyjson = playerJson;
  //   alert("Kjører!");

@@ -14,10 +14,11 @@
 <h1>Hello world!</h1>
 <!-- <script>alert("Javascript i index.html kjører!")</script> -->
 <!-- JStest lager en figur i elementet figur1 -->
-<!-- <script src="JStest.js"></script> -->
+<script src="JStest.js"></script>
 <!-- SSBtest lager en figur i elementet figur2 -->
-<!-- <script src="SSBtest.js"></script> -->
-<script src="fantasytest.js"> </script>
+<script src="SSBtest.js"></script>
+<!-- <script src="fantasytest.js"> </script> -->
+<script src="Logisticmap.js"> </script>
 
 
 <div id="Boks_rundt_fig1" style="border-style:solid; border-width: medium; border-color:#001a58; border-radius:5px; width: 1600px">
@@ -27,4 +28,20 @@
 <div id="Boks_rundt_fig1" style="border-style:solid; border-width: medium; border-color:#001a58; border-radius:5px; width: 1600px">
 <div id="figur2" style="width:50%; height:400px;"></div>
 </div>
+<br><br>
+
+<h1>In theory about complexity, the logistic map is a well known example of how complexity can arise from simple building blocks. The behaviour of the system is described by x<sub>n+1</sub>=Rx<sub>n</sub>(1-x<sub>n</sub>). Enter values for R and x<sub>0</sub> below to see how the system behaves</h1>
+<div>
+<input type="text" id="kompleksR" value="Angi R">
+<input type="text" id="kompleksx0" value="Angi x_0">
+<button onclick="logistic()">Lag figur</button>
+</div>
+<br>
+<div id="Boks_rundt_fig3" style="border-style:solid; border-width: medium; border-color:#001a58; border-radius:5px; width: 1600px">
+  <div id="figur3" style="width:50%; height:400px;"></div>
+</div>
+  <br><br>
+  
+
+
 </html>

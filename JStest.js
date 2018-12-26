@@ -16,7 +16,7 @@ $(function() {
             type: 'column'
         },
         title: {
-            text: "Figur 1: Antall stillinger, ansatte og årsverk i 1601 Trondheim kommune"
+            text: "Enkel test av Highcharts"
         },
         credits: {
             enabled: true,

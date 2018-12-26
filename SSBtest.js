@@ -13,7 +13,7 @@ $.get(url, function main(obj){
                     type: 'line'
                 },
                 title: {
-                    text: 'Detaljomsetningsindeksen siste 13 mnd. '  
+                    text: 'Test av APIene til SSB. Detaljomsetningsindeksen siste 13 mnd. '  
                 },
                 /* henter dimensjoner i json-stat datasett. Tips: bruk F12 konsoll */
                 xAxis: [
